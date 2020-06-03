@@ -1,0 +1,8 @@
+-------------------------02-06-2020 22:37:38-------------------------
+source for a multiple-column UPDATE item must be a sub-SELECT or ROW() expression
+LINE 1: UPDATE Editorial SET (nombre) = ('Santillana') WHERE editori...
+                                         ^
+Ocurrio un error al ejecutar la sentencia SQL:
+
+UPDATE Editorial SET (nombre) = (%s) WHERE editorial_id = %s
+----------------------------------------------------------------
